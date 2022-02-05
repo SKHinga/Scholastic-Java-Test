@@ -22,6 +22,7 @@
   font-weight: bolder;
   color: #236A44;
   margin-top: 5px;
+  font-size: 40px;
 }
 #cont {
   background: #E5F3BE;
@@ -38,6 +39,13 @@
   border: none;
   color: #000000;
   font-weight: bolder;
-  font-family: "Roboto";
   cursor: pointer;
+}
+#samuel {
+  background: #425608;
+  text-align: center;
+}
+#samuel p {
+  color: #000000;
+  font-weight: bolder;
 }
