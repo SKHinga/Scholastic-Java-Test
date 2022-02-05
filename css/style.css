@@ -23,3 +23,11 @@
   color: #236A44;
   margin-top: 5px;
 }
+#cont {
+  background: #E5F3BE;
+  border-radius: 50px;
+}
+#all h4 {
+  font-weight: bolder;
+  font-size: 30px;
+}
