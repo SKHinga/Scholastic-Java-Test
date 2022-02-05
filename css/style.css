@@ -4,7 +4,7 @@
   font-family: 'Roboto';
 }
 .container-fluid {
-  background-image: linear-gradient(55deg, #C6FC2C, #425608);
+  background-image: linear-gradient(135deg, #C6FC2C, #425608);
 }
 .top h1 {
   color: #236A44;
@@ -16,4 +16,10 @@
   font-size: small;
   margin-top: 10px;
   font-weight: bold;
+}
+.quiz h3 {
+  text-align: center;
+  font-weight: bolder;
+  color: #236A44;
+  margin-top: 5px;
 }
