@@ -34,21 +34,21 @@
    <h3>Quiz</h3>
  </div>
  <div class="container-fluid" id="cont">
-  <form name="questions" id="all">
+  <form name="questions" id="qn">
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 1</h4>
-      <p>How do you insert COMMENTS in Java code?</p>
-      <p><input type="radio" name="qn1" value="// This is a comment">// This is a comment</p>
-      <p><input type="radio" name="qn1" value="/* This is a comment">/* This is a comment</p>
-      <p><input type="radio" name="qn1" value="# This is a comment"># This is a comment</p>
-      <p><input type="radio" name="qn1" value="'This is a comment'">'This is a comment'</p>
+      <p>How do you insert COMMENTS in Javascript code?</p>
+      <p><input type="radio" name="qn1" value="commentone">// This is a comment</p>
+      <p><input type="radio" name="qn1" value="commenttwo">/* This is a comment</p>
+      <p><input type="radio" name="qn1" value="commentthree"># This is a comment</p>
+      <p><input type="radio" name="qn1" value="commentfour">'This is a comment'</p>
     </div>
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 2</h4>
       <p>Which data type is used to create a variable that should store text?</p>
-      <p><input type="radio" name="qn2" value="String">String</p>
-      <p><input type="radio" name="qn2" value="myString">myString</p>
       <p><input type="radio" name="qn2" value="Sting">Sting</p>
+      <p><input type="radio" name="qn2" value="myString">myString</p>
+      <p><input type="radio" name="qn2" value="String">String</p>
       <p><input type="radio" name="qn2" value="Txt">Txt</p>
     </div>
     <div class="col-lg-5 offset-1 p-0,5 top">
@@ -62,10 +62,10 @@
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 4</h4>
       <p>How do you create a variable with the floating number 2.8?</p>
-      <p><input type="radio" name="qn4" value="float x = 2.8f;">float x = 2.8f</p>
+      <p><input type="radio" name="qn4" value="float x = 2.8f;">float x = 2.8f;</p>
       <p><input type="radio" name="qn4" value="byte x = 2.8f">byte x = 2.8f</p>
       <p><input type="radio" name="qn4" value="int x = 2.8f;">int x = 2.8f;</p>
-      <p><input type="radio" name="qn4" value="int x = 2.8f;">int x = 2.8f;</p>
+      <p><input type="radio" name="qn4" value="in x = 2.8f;">in x = 2.8f;</p>
     </div>
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 5</h4>
@@ -78,19 +78,20 @@
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 6</h4>
       <p>Which method can be used to return a string in upper case letters?</p>
-      <p><input type="radio" name="qn6" value="toUpperCase()">toUpperCase()</p>
+      <p><input type="radio" name="qn6" value="upperCase()">upperCase()</p>
       <p><input type="radio" name="qn6" value="touppercase()">touppercase()</p>
       <p><input type="radio" name="qn6" value="tuc()">tuc()</p>
-      <p><input type="radio" name="qn6" value="upperCase()">upperCase()</p>
+      <p><input type="radio" name="qn6" value="toUpperCase()">toUpperCase()</p>
     </div>
     <div class="text-center">
-      <input type="button" value="SUBMIT" id="submit" onclick="mybutton()" class="m-3 text-center">
+      <input type="button" value="SUBMIT" id="submit" onclick="myButton()" class="m-3 text-center">
     </div>
   </form>
+  <div id="text"></div>
  </div>
  <div class="container-fluid mt-3" id="samuel">
    <p>Made with love by Samuel Hinga.</p>
  </div>
-  <script src="JS/node.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

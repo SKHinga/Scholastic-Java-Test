@@ -28,7 +28,7 @@
   background: #E5F3BE;
   border-radius: 40px;
 }
-#all h4 {
+#qn h4 {
   font-weight: bolder;
   font-size: 30px;
 }
@@ -48,4 +48,7 @@
 #samuel p {
   color: #000000;
   font-weight: bolder;
+}
+#submit::after {
+  background-color: #236A44;
 }
