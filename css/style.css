@@ -49,9 +49,6 @@
   color: #000000;
   font-weight: bolder;
 }
-#submit::after {
-  background-color: #236A44;
-}
 .resp {
   color: #425608;
   font-size: x-large;

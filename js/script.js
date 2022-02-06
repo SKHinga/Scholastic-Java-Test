@@ -31,7 +31,7 @@ function myButton() {
   results.textContent= "Congratulations on your success! Your score is 84%.";
 } else if (score==40) {
   alert("Well done for submiting click OK to view your score!");
-  results.textContent= "A job well done Your score is an avarange of 67%!";
+  results.textContent= "A job well done! You have scored 67%.";
  } else if (score==30) {
   alert("Well done for submiting click OK to view your score!");
   results.textContent= "Your score is 50%, you have fairly passed!";
