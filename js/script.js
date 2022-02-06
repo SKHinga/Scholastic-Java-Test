@@ -23,7 +23,7 @@ function myButton() {
   // };
   qn.style.display="none";
   // create if statements to display our score.
-if (score==60) {
+  if (score==60) {
   alert("Well done for submiting click OK to view your score!");
   results.textContent= "Your score is 100%, you passed with flying colors!";
 } else if (score==50) {

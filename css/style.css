@@ -52,3 +52,8 @@
 #submit::after {
   background-color: #236A44;
 }
+.resp {
+  color: #425608;
+  font-size: x-large;
+  text-align: center;
+}
