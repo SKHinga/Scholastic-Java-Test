@@ -26,5 +26,8 @@ function myButton() {
 if (score==60) {
   alert("Well done for submiting click OK to view your score!");
   results.textContent= "Your score is 100%, you passed with flying colors!";
-}
+} else if (score==50) {
+  alert("Well done for submiting click OK to view your score!");
+  results.textContent= "Congratulations on your success! Your score is 84%.";
+} 
 }
