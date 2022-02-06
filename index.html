@@ -47,6 +47,7 @@
       <p><input type="radio" name="qn1" value="commentthree"># This is a comment</p>
       <p><input type="radio" name="qn1" value="commentfour">'This is a comment'</p>
     </div>
+    <!-- p in bootstrap aids in padding -->
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 2</h4>
       <p>Which data type is used to create a variable that should store text?</p>
@@ -55,6 +56,7 @@
       <p><input type="radio" name="qn2" value="String">String</p>
       <p><input type="radio" name="qn2" value="Txt">Txt</p>
     </div>
+    <!-- offset aids in moving the div in column tags which are normally 12 in total in every screen -->
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 3</h4>
       <p>How do you create a variable with the numeric value 5?</p>
@@ -82,11 +84,13 @@
     <div class="col-lg-5 offset-1 p-0,5 top">
       <h4>Question 6</h4>
       <p>Which method can be used to return a string in upper case letters?</p>
+      <!-- Name attribute must be the same if you require a single answer, are used to group radio inputs -->
       <p><input type="radio" name="qn6" value="upperCase()">upperCase()</p>
       <p><input type="radio" name="qn6" value="touppercase()">touppercase()</p>
       <p><input type="radio" name="qn6" value="tuc()">tuc()</p>
       <p><input type="radio" name="qn6" value="toUpperCase()">toUpperCase()</p>
     </div>
+    <!-- text center aligns the text ro the center -->
     <div class="text-center">
       <input type="button" value="SUBMIT" id="submit" onclick="myButton()" class="m-3 text-center">
     </div>
