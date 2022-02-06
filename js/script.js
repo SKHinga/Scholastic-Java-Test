@@ -19,7 +19,12 @@ function myButton() {
   if (correctAns5=="length()"){score+=10};
   if (correctAns6=="toUpperCase()"){score+=10};
   // create an aleart that will inform the user they are submitting. Additionally a new document will display the score.
-  document.write(score); {
-    alert("Well done for submiting click ok to view your score!")
-  }
+  // document.write(score); {
+  // };
+  qn.style.display="none";
+  // create if statements to display our score.
+if (score==60) {
+  alert("Well done for submiting click OK to view your score!");
+  results.textContent= "Your score is 100%, you passed with flying colors!";
+}
 }
