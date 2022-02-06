@@ -35,5 +35,8 @@ if (score==60) {
  } else if (score==30) {
   alert("Well done for submiting click OK to view your score!");
   results.textContent= "Your score is 50%, you have fairly passed!";
-} 
+} else if (score<=20) {
+  alert("Well done for submiting click OK to view your score!");
+  results.textContent= "Your score is below average. Please retry the quiz for a better score!";
+}
 }
