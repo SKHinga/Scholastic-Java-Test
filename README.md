@@ -18,7 +18,8 @@ The app currently runs smoothly with no hicups and generates the total score eve
 ## Technologies Used
 The app was made entirely of HTML, CSS and Javascript. CSS also was incorporated with bootstrap to aid in the responsiveness of the app for use by all sorts of divices.
 ## Support and contact details
-If you run into any issue while using the app, please feel free to contact me via [email](samuel.hinga@student.moringaschool.com). Additionally, if you are interested in contributing to the programme, contact me via the same email tooo and your input would be highly appreciated.
+If you run into any issue while using the app, please feel free to contact me via [email](mailto:samuel.hinga@student.moringaschool.com). Additionally, if you are interested in contributing to the programme, contact me via the same email tooo and your input would be highly appreciated.
 ### License
 *The application is under MIT license and you can scroll to the license to read what its all about*
+
 Copyright (c) 2022 **Samuel Hinga & Moringa school**
